@@ -5,6 +5,20 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: 'Gatsby blog',
+    description: 'Welcome to my gatsbyJS blog.',
+    author: 'Kou Hirose'
+  },
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    "gatsby-transformer-remark",
+  ],
 }

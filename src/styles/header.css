@@ -1,0 +1,16 @@
+.header-link{
+	font-size: 50px;
+	font-family: 'Impact' ;
+	text-align: center;
+	/* box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 40px; */
+	width: 100%;
+	color:rgb(30, 215, 96);
+	
+	/* text-decoration: none; */
+	/* border-bottom: 3px solid #f1f4f7; */
+	/* margin: 0px auto; */
+}
+
+.header{
+	text-decoration: none;
+}

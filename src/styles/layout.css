@@ -1,0 +1,11 @@
+body{
+	background:#2a2b2e;
+	color:#f1f4f7;
+}
+
+.layout {
+	margin: 0 auto;
+	/* max-width: 960px; */
+	padding: 0 1.1rem auto;
+
+  }

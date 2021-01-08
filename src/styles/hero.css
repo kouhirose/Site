@@ -1,0 +1,25 @@
+.hero{
+	margin:100px 0px;
+}
+
+.hero-text{
+	font-size:50px;
+	line-height: 1.2;
+}
+
+.hero-author{
+	/* display flexで横並びになる．画像とテキストが */
+	display: flex;
+}
+
+.hero-author-image{
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+}
+
+.hero-author-text{
+	color:#595959;
+	margin:0 0 0 10px;
+	font-size: 30px;
+}
