@@ -9,7 +9,7 @@ export default function Header() {
 		<header>
 			<Link to="/" className="header" >
 				<div className="header-link">
-					Kou Hirose
+					Hirose Blog
 				</div>
 
 			</Link>

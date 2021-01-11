@@ -18,6 +18,10 @@
 	padding-left: 1rem;
 }
 
+.post-link-date{
+	color: rgb(126, 138, 148);
+}
+
 .post-link-icon {
 	padding-top :10px;
 	font-size:5em;

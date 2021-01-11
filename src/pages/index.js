@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 export default function Home({ data }) {
   return (
     <Layout>
-      <SEO title="Dev Blog" description="Gatsbyを使って作ったブログです" />
+      <SEO title="Hirose Blog" description="Gatsbyを使って作ったブログです" />
       {data.allMarkdownRemark.nodes.map(node =>
         <PostLink post={node} key={node.id} />
       )}
@@ -26,7 +26,7 @@ export const query = graphql`
           slug
         }
         frontmatter {
-          date
+          date(formatString: "YYYY-MM-DD")
           title
           description
           emoji

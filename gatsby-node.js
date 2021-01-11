@@ -27,7 +27,7 @@ exports.createPages = async ({ graphql, actions }) => {
 						}
 						frontmatter {
 							title
-							date
+							date(formatString: "YYYY-MM-DD")
 							emoji
 							description
 						}
